@@ -1,13 +1,16 @@
 import React from 'react';
 
+
 const Navbar = () => {
   return (
-    <div className='text-center bg-transparent items-center justify-center'>
-      <ul className='flex gap-4 p-4  items-center text-center'>
+    <div className='text-center bg-transparent p-4 md:px-12'>
+      <ul className='flex flex-wrap gap-4 items-center justify-center text-center'>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Home</li>
+        <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>About</li>
+        <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>TimeLine</li>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Events</li>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Gallery</li>
-        <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Details</li>
+        <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Team</li>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Contact</li>
       </ul>
     </div>
@@ -15,3 +18,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

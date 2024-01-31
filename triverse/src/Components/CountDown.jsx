@@ -28,7 +28,7 @@ const CountDown = () => {
 
     // Clear the interval when the component is unmounted
     return () => clearInterval(interval);
-  }, []); // Empty dependency array to run the effect only once when the component mounts
+  }, []); 
 
   return (
     <>
