@@ -3,8 +3,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='text-center bg-transparent p-4 md:px-12'>
-      <ul className='flex flex-wrap gap-4 items-center justify-center text-center'>
+    <div className='text-center  p-4 md:px-12 bg-purple-900'>
+      <ul className='flex flex-wrap gap-8 items-center justify-center text-center text-xl'>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>Home</li>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>About</li>
         <li className='hover:text-yellow-500 transition duration-300 cursor-pointer'>TimeLine</li>

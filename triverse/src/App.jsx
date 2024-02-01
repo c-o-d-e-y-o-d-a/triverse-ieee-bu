@@ -7,17 +7,22 @@ import Sponsor from "./Pages/sponsor"
 import Navbar from "./components/Navbar"
 import Events from "./Pages/Events"
 import Timeline from "./Pages/Timeline"
-
+import Bottom from "./Components/Bottom"
 function App() {
   
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/>
     <Home/>
     <Events/>
     <Timeline/>
     <About/>
+    <Gallery/>
+    <Bottom/> */}
+
+    <Gallery/>
+
     {/* <Router>
       <Routes>
         <Route/>

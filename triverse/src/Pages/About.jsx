@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='p-12 border-yellow-400 border-2 rounded-xl '>
+    <div className='p-12 border-yellow-400 border-2 rounded-xl mx-4 md:mx-20 mb-16 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]' >
       <h1 className='text-6xl mb-12 '>About us</h1>
       <p>
         The Institute of Electrical and Electronics Engineers (IEEE) is a global association and organization 
