@@ -13,22 +13,18 @@ function App() {
 
   return (
     <>
-    {/* <Navbar/>
+    <Navbar/>
     <Home/>
     <Events/>
     <Timeline/>
     <About/>
     <Gallery/>
-    <Bottom/> */}
+    <Contact/>
+    <Bottom/>
+    
+  
 
-    <Gallery/>
-
-    {/* <Router>
-      <Routes>
-        <Route/>
-      </Routes>
-
-    </Router> */}
+    
    
     </>
   )
