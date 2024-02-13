@@ -2,10 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+font-family: 'heading-new';
+src: url('C:\Users\hp\triverse-ieee\triverse-ieee-bu\triverse\biorhyme\biorhyme\BioRhyme-VariableFont_wdth,wght.ttf');
+}
+
 .size-big{
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .wh{
   width: 50dvw;
   height: 40dvh;
+}
+
+.font-head{
+  font-family: 'heading-new';
+
+}
+
+.yellowM{
+  background-color:#F8E559 ;
+
+}
+.purpleM{
+  background-color:#864AF9;
+}
+
+.dardPurpleM{
+  background-color:#3B3486 ;
+}
+
+.darkestM{
+  background-color: #332941;
+}
+
+.imageCard{
+  width: 20dvw;
+  height: 44dvh;
+  border: 1px solid purple;
+
 }

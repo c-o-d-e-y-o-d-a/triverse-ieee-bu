@@ -1,33 +1,37 @@
-import {Router, Routes ,Route} from "react-router-dom"
-import About from "./Pages/about"
-import Contact from "./Pages/contact"
-import Home from "./Pages/home"
-import Gallery from "./Pages/gallery"
-import Sponsor from "./Pages/sponsor"
-import Navbar from "./components/Navbar"
-import Events from "./Pages/Events"
-import Timeline from "./Pages/Timeline"
-import Bottom from "./Components/Bottom"
-function App() {
-  
+import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
+  import About from "./Pages/about";
+import Contact from "./Pages/contact";
+import Home from "./Pages/home";
+import Gallery from "./Pages/gallery";
+import Navbar from "./components/Navbar";
+import Events from "./Pages/Events";
+import Timeline from "./Pages/Timeline";
+import Bottom from "./Components/Bottom";
+import MatrixRainingCode from "./Components/MatrixRainingCode";
 
+function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Events/>
-    <Timeline/>
-    <About/>
-    <Gallery/>
-    <Contact/>
-    <Bottom/>
-    
-  
-
-    
-   
+      <div className="min-h-screen overflow-hidden">
+        
+        <MatrixRainingCode className="absolute inset-0" />
+      </div>
+      <div className="flex flex-col">
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/timeline" element={<Timeline />} />
+          </Routes>
+        </Router>
+        {/* <Bottom/> */}
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
