@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 
 import Home from "./Pages/Home";
 import Gallery from "./Pages/Gallery";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import Events from "./Pages/Events";
 import Timeline from "./Pages/Timeline";
 import Bottom from "./Components/Bottom";
