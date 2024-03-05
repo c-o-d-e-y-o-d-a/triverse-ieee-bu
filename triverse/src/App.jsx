@@ -1,13 +1,15 @@
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
-import Contact from "./Pages/contact";
-import Home from "./Pages/home";
-import Gallery from "./Pages/gallery";
+
+import Home from "./Pages/Home";
+import Gallery from "./Pages/Gallery";
 import Navbar from "./components/Navbar";
 import Events from "./Pages/Events";
 import Timeline from "./Pages/Timeline";
 import Bottom from "./Components/Bottom";
 import MatrixRainingCode from "./Components/MatrixRainingCode";
 import About from './Pages/About';
+import Contact from './Pages/Contact';
+
 
 function App() {
   return (
