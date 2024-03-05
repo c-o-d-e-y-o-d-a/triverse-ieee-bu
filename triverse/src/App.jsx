@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
-  import About from "./Pages/about";
 import Contact from "./Pages/contact";
 import Home from "./Pages/home";
 import Gallery from "./Pages/gallery";
@@ -8,15 +7,16 @@ import Events from "./Pages/Events";
 import Timeline from "./Pages/Timeline";
 import Bottom from "./Components/Bottom";
 import MatrixRainingCode from "./Components/MatrixRainingCode";
+import About from './Pages/About';
 
 function App() {
   return (
     <>
-      <div className="min-h-screen overflow-hidden">
+      <div className=" overflow-hidden">
         
         <MatrixRainingCode className="absolute inset-0" />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col overflow-x-hidden">
         <Router>
           <Navbar />
           <Routes>

@@ -1,6 +1,8 @@
 import React from 'react';
 import CountDown from '../Components/CountDown';
 import { motion } from "framer-motion"
+
+// import Bottom from '../Components/Bottom';
 const Home = () => {
   return (
     <motion.div 
@@ -60,7 +62,7 @@ const Home = () => {
       className=' border-black py-2 px-4 bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-pink-300 via-purple-300 to-indigo-400 rounded-xl text-black '>Register Now</motion.button>
 
       
-
+    {/* <Bottom/> */}
 
 
     </motion.div>
