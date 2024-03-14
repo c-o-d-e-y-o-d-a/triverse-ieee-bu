@@ -9,6 +9,10 @@ import Bottom from "./Components/Bottom";
 import MatrixRainingCode from "./Components/MatrixRainingCode";
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Sponsor from './Pages/sponsor';
+import Teams from './Pages/Teams';
+
+
 
 
 function App() {
@@ -28,6 +32,8 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/events" element={<Events />} />
             <Route path="/timeline" element={<Timeline />} />
+            <Route path="/sponsor" element={<Sponsor/>}/>
+            <Route path="/team" element={<Teams/>}/>
           </Routes>
         </Router>
         {/* <Bottom/> */}

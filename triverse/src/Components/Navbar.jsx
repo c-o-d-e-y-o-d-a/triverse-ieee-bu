@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false);
-  let class1 = "flex  gap-8 items-center justify-center text-center text-3xl flex-col  ";
-  let class2 = "flex  gap-8 items-center justify-center text-center text-4xl flex-col hidden ";
+  let class1 = "flex  gap-6 items-center justify-center text-center text-2xl flex-col  duration-500";
+  let class2 = "flex  gap-8 items-center justify-center text-center text-4xl flex-col hidden duration-500 ";
 
   return (
     <>
@@ -18,22 +18,25 @@ const Navbar = () => {
           <li key="events" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/events'>Events</Link></li>
           <li key="gallery" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/gallery'>Gallery</Link></li>
           <li key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/team'>Team</Link></li>
+          <li key="sponsor" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></li>
+          
           <li key="contact" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/contact'>Contact</Link></li> 
         </ul>
       </div>
 
-      <div className='text-center text-sm p-4 md:px-12 bg-black background-blur-xl text-purple-800 font-bold block md:hidden'>
+      <div className='duration-500 text-center text-sm p-4 md:px-12 bg-black background-blur-xl text-purple-800 font-bold block md:hidden'>
         <button onClick={() => setMobile(!Mobile)}>
           {Mobile ? <ImCross /> : <FaBars />}
         </button>
         <ul className={Mobile? class1:class2} >
-          <li key="home" className='hover:text-yellow-500 transition duration-300 cursor-pointer mt-2'><Link to='/'>Home</Link></li>
-          <li key="about" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/about'>About</Link></li>
-          <li key="timeline" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/timeline'>TimeLine</Link></li>
-          <li key="events" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/events'>Events</Link></li>
-          <li key="gallery" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/gallery'>Gallery</Link></li>
-          <li key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/team'>Team</Link></li>
-          <li key="contact" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/contact'>Contact</Link></li> 
+          <button  onClick={() => setMobile(!Mobile)} key="home" className='hover:text-yellow-500 transition duration-300 cursor-pointer mt-2'><Link to='/'>Home</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="about" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/about'>About</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="timeline" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/timeline'>TimeLine</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="events" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/events'>Events</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="gallery" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/gallery'>Gallery</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/team'>Team</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></button>
+          <button  onClick={() => setMobile(!Mobile)} key="contact" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/contact'>Contact</Link></button> 
         </ul>
       </div>
     </>

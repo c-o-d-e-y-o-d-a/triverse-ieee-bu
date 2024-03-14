@@ -13,9 +13,9 @@ const evenList = [
 
 const Events = () => {
   return (
-    <div className='text-center ps-16 mb-12 mt-10  font-head pt-4 bg-gradient-to-bl from-cyan-800 to-fuchsia-800'>
-      <h1 className='text-6xl mb-12'>Our Events</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className='text-center md:ps-16 mb-12 font-head pt-4    '>
+      <h1 className='md:text-6xl text-5xl mt-2 mb-12'>Our Events</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center align-items-center">
         {evenList.map((event, index) => (
           <EventCard key={index} imageSrc={event.ImageSrc} />
         ))}

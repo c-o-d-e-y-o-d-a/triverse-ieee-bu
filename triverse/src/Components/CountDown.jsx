@@ -4,7 +4,6 @@ const CountDown = () => {
   
   const targetDate = new Date('2024-03-15T23:59:59');
 
-  // Calculate the initial time difference
   const calculateTimeDifference = () => {
     const now = new Date();
     const difference = targetDate - now;
@@ -17,16 +16,13 @@ const CountDown = () => {
     return { days, hours, minutes, seconds };
   };
 
-  // State variables for the countdown values
   const [countdown, setCountdown] = useState(calculateTimeDifference);
 
   useEffect(() => {
-    // Update the countdown every second
     const interval = setInterval(() => {
       setCountdown(calculateTimeDifference);
     }, 1000);
 
-    // Clear the interval when the component is unmounted
     return () => clearInterval(interval);
   }, []); 
 

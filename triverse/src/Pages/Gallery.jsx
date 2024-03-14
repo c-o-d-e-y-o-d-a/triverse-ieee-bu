@@ -13,12 +13,12 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 export default function Gallery() {
   return (
-    <div className='flex justify-center items-center flex-col'>
-    <h1 className=' font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 my-8' style={{fontSize:'4rem'}}>
-      Gallery
+    <div className='flex justify-center items-center flex-col w-full h-screen bg-black'>
+    <h1 className=' font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 my-8' style={{fontSize:'2rem'}}>
+      Our previous events
     </h1>
-    <ImageList className=''
-      sx={{ width: 500, height: 400 }}
+    <ImageList className='mb-20'
+      sx={{ width: 600, height: 600 }}
       variant="quilted"
       cols={4}
       rowHeight={121}
