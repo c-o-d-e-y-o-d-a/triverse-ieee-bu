@@ -9,7 +9,7 @@ import Bottom from "./Components/Bottom";
 import MatrixRainingCode from "./Components/MatrixRainingCode";
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Sponsor from './Pages/sponsor';
+import Sponsor from './Pages/Sponsor'
 import Teams from './Pages/Teams';
 
 
