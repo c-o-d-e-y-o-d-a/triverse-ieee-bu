@@ -64,7 +64,7 @@ const Contact = () => {
                 <input type="number" name="number" id="number" placeholder="Phone number" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
               </div>
 
-              <button type="submit" className="w-20 mt-8 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none hover:text-purple-500">Send</button>
+              <button type="submit" className="w-20 mt-8 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 dark:text-black text-white font-semibold focus:border-indigo-500 focus:outline-none hover:text-purple-500">Send</button>
             </form>
           </div>
         </div>

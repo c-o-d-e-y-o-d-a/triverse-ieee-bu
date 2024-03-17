@@ -4,8 +4,8 @@ import Bottom from '../Components/Bottom'
 const About = () => {
   return (
     <div className='md:p-12 p-6 mt-12 bg-black border-yellow-400 border-2 rounded-xl md:ms-12 md:mx-20 mb-16 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]' >
-      <h1 className='text-6xl mb-12 '>About us</h1>
-      <p className='bg-gradient-to-bl '>
+      <h1 className='text-6xl mb-12 justify-center items-center '>About us</h1>
+      <p className='bg-gradient-to-bl justify-center items-center '>
         The Institute of Electrical and Electronics Engineers (IEEE) is a global association and organization 
         of professionals working toward the development, implementation, and maintenance of technology-centered products and 
         services1. Founded in 1963, IEEE is a nonprofit organization that innovates, educates, and standardizes the electrical

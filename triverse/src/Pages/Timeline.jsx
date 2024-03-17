@@ -6,7 +6,7 @@ const Timeline = () => {
 
     <div className='text-center '>
 
-        <h1 className='text-6xl mb-12 b'>TimeLine</h1>
+        <h1 className='text-6xl mb-12 text-white'>TimeLine</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-yellow-400">
 
 
