@@ -62,7 +62,7 @@ const Card = ({type,details,cost}) => {
       className="relative h-96 w-80 shrink-0 overflow-hidden rounded-xl bg-indigo-500 p-8"
     >
       <div className="relative z-10 text-white">
-        <span className="mb-3 block w-fit rounded-full bg-white/30 px-3 py-0.5 text-sm font-light text-white">
+        <span className="mb-3 block w-fit rounded-full bg-white/30 px-3 py-0.5 text-sm  text-black">
           {type}
         </span>
         <motion.span
@@ -101,6 +101,7 @@ const Background = () => {
       height="384"
       viewBox="0 0 320 384"
       fill="none"
+      
       xmlns="http://www.w3.org/2000/svg"
       className="absolute inset-0 z-0"
       variants={{
@@ -129,6 +130,7 @@ const Background = () => {
         cy="114.5"
         r="101.5"
         fill="#262626"
+        className='hidden'
       />
       <motion.ellipse
         variants={{

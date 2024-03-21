@@ -14,7 +14,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function Gallery() {
   return (
     <div className='flex justify-center items-center flex-col w-full h-screen bg-black'>
-    <h1 className=' font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 my-8' style={{fontSize:'2rem'}}>
+    <h1 className=' font-bold bg-clip-text text-transparent text-white my-8' style={{fontSize:'2rem'}}>
       Our previous events
     </h1>
     <ImageList className='mb-20'
