@@ -1,7 +1,8 @@
 import React from 'react';
-
+import Footer from '../Components/Footer';
 const Contact = () => {
   return (
+    <>
     <div className='h-full flex flex-col justify-center items-center mt-28'>
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8 bg-black dark:bg-gray-900 rounded">
         <div className="mt-8 overflow-hidden">
@@ -73,7 +74,9 @@ const Contact = () => {
       <div className=" mb-12 mt-16">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9591933958554!2d77.58162287432086!3d28.450646475764515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cbf94deb6bc39%3A0x7ba6bedc9a2b537f!2sBennett%20University%20(Times%20of%20India%20Group)!5e0!3m2!1sen!2sin!4v1707819589885!5m2!1sen!2sin" width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+      
     </div>
+    <Footer/></>
   );
 }
 

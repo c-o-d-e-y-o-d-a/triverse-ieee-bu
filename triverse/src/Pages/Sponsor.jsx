@@ -2,10 +2,13 @@ import React from 'react'
 import SponsorCard from '../Components/SponsorCard'
 import SponsorSlider from '../Components/SponsorSlider'
 import { Button } from '@mui/material'
+import Footer from '../Components/Footer'
 
 const Sponsor = () => {
   return (
-    <div className='h-full w-screen bg-black text-center '>
+    <>
+    
+  <div className='h-full w-screen bg-black text-center '>
 
       <div className="md:text-5xl text-4xl mt-6 text-white">
         Call for Sponsors
@@ -37,6 +40,9 @@ const Sponsor = () => {
    <Button variant="outlined" ><a href="https://drive.google.com/file/d/1UBW84q0qKifZw-sLkpiWiUK3DjIhQrAe/view?usp=sharing">View sponsorship deck</a></Button>
    <div className='mb-28'></div>
     </div>
+    
+    <Footer/>
+    </>
   )
 }
 

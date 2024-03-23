@@ -5,7 +5,7 @@ import Gallery from "./Pages/Gallery";
 import Navbar from "./Components/Navbar";
 import Events from "./Pages/Events";
 import Timeline from "./Pages/Timeline";
-import Bottom from "./Components/Bottom";
+import Bottom from "./Components/Footer";
 import MatrixRainingCode from "./Components/MatrixRainingCode";
 import About from './Pages/About';
 import Contact from './Pages/Contact';

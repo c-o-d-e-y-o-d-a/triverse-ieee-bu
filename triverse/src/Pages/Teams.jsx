@@ -1,9 +1,11 @@
 import React from 'react'
 import TeamCard from '../Components/TeamCard'
+import Footer from '../Components/Footer'
+
 
 const Teams = () => {
   return (
-    <div className=' text-white bg-black text-center h-full '>
+    <><div className=' text-white bg-black text-center h-full '>
       <h1 className='text-5xl mt-10  mb-12'>Meet the team</h1>
 <div class="flex items-center py-4">
  
@@ -70,7 +72,8 @@ const Teams = () => {
 
       
     </div>
-  )
+  <Footer/>
+  </>)
 }
 
 export default Teams

@@ -1,12 +1,14 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 
 const Timeline = () => {
   return (
 
 
-    <div className='text-center bg-black  w-full h-screen lg:h-full grid grid-rows-1  align-middle justify-center'>
+    <>
+    <div className='text-center   w-full h-screen lg:h-full grid grid-rows-1  align-middle justify-center'>
 
-        <div className='timelineBox md:my-8 md:mb-4 md:bg-slate-900  p-10'>
+        <div className='timelineBox md:my-8 md:mb-4 md:bg-slate-900  pt-4  w-90'>
           <h1 className='text-5xl mb-12 text-white mt-4'>TimeLine</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-yellow-400">
 
@@ -74,6 +76,9 @@ Networking event : Get a chance to make amaz </div>
 </ul>
         </div>
     </div>
+
+    <Footer/>
+    </>
   )
 }
 
