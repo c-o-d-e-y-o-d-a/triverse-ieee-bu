@@ -23,7 +23,7 @@ const Sponsor = () => {
     </div>
 
 
-    <div className="text-white text-3xl my-30 mb-28">
+    <div className="text-white text-3xl my-30 mt-8 mb-28">
       Our Previous Sponsors
       <div className="mt-12 bg-white">
 
@@ -32,7 +32,7 @@ const Sponsor = () => {
 
     </div>
 
-   <h2 className='md:text-6xl text-5xl mb-8 text-white'>Whats in it for you?</h2>
+   <h2 className='md:text-6xl text-4xl mb-8 text-white'>Whats in it for you?</h2>
    <h4 className='mb-8 text-white'>Tap on the link below to view our sponsorship deck</h4>
    <Button variant="outlined" ><a href="https://drive.google.com/file/d/1UBW84q0qKifZw-sLkpiWiUK3DjIhQrAe/view?usp=sharing">View sponsorship deck</a></Button>
    <div className='mb-28'></div>

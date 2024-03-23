@@ -11,7 +11,7 @@ export default function TeamCard({imgSrc,name,position}) {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="130"
+          height="150"
           image="https://images.unsplash.com/photo-1589118949245-7d38baf380d6"
           alt="green iguana"
         />

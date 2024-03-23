@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 const CountDown = () => {
-  
-  const targetDate = new Date('2024-03-15T23:59:59');
-
+  // Define calculateTimeDifference outside useEffect
   const calculateTimeDifference = () => {
+    const targetDate = new Date('2024-04-04T23:59:59');
     const now = new Date();
     const difference = targetDate - now;
 
@@ -20,7 +19,7 @@ const CountDown = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCountdown(calculateTimeDifference);
+      setCountdown(calculateTimeDifference());
     }, 1000);
 
     return () => clearInterval(interval);
@@ -29,25 +28,25 @@ const CountDown = () => {
   return (
     <>
       <div className="grid grid-flow-col gap-5 text-center auto-cols-max ">
-        <div className="flex flex-col p-2  rounded-box  bg-black text-purple-700">
+        <div className="flex flex-col p-2 rounded-box bg-black text-purple-700">
           <span className="countdown font-mono text-5xl bg-black">
             <span style={{ '--value': countdown.days }}></span>
           </span>
           days
         </div>
-       <div className="flex flex-col p-2  rounded-box  bg-black text-purple-700">
+       <div className="flex flex-col p-2 rounded-box bg-black text-purple-700">
           <span className="countdown font-mono text-5xl">
             <span style={{ '--value': countdown.hours }}></span>
           </span>
           hours
         </div>
-        <div className="flex flex-col p-2  rounded-box  bg-black text-purple-700">
+        <div className="flex flex-col p-2 rounded-box bg-black text-purple-700">
           <span className="countdown font-mono text-5xl">
             <span style={{ '--value': countdown.minutes }}></span>
           </span>
           min
         </div>
-        <div className="flex flex-col p-2  rounded-box  bg-black text-purple-700">
+        <div className="flex flex-col p-2 rounded-box bg-black text-purple-700">
           <span className="countdown font-mono text-5xl">
             <span style={{ '--value': countdown.seconds }}></span>
           </span>

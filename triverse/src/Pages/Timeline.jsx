@@ -4,9 +4,10 @@ const Timeline = () => {
   return (
 
 
-    <div className='text-center bg-black  w-full h-screen lg:h-full'>
+    <div className='text-center bg-black  w-full h-screen lg:h-full grid grid-rows-1  align-middle justify-center'>
 
-        <h1 className='text-5xl mb-12 text-white mt-4'>TimeLine</h1>
+        <div className='timelineBox md:my-8 md:mb-4 md:bg-slate-900  p-10'>
+          <h1 className='text-5xl mb-12 text-white mt-4'>TimeLine</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-yellow-400">
 
 
@@ -19,7 +20,7 @@ const Timeline = () => {
       <div className="text-lg font-black">23rd March 9-11 AM</div>
       Get ready to dive into a world of tech
     </div>
-    <hr/>
+    <hr className='bg-yellow-400'/>
   </li>
 
 
@@ -33,10 +34,12 @@ const Timeline = () => {
       <time className="font-mono italic">Food Fantasy</time>
       <div className="text-lg font-black">23 rd March 12-2pm</div>
  dive into a world of culinary excellence    </div>
-    <hr />
+    <hr className='bg-yellow-400' />
   </li>
   <li className='mb-6  '>
-    <hr />
+    <hr className='bg-yellow-400'/>
+
+
     <div className="timeline-middle  ">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
     </div>
@@ -44,10 +47,10 @@ const Timeline = () => {
       <time className="font-mono italic">Cyber Hunt</time>
       <div className="text-lg font-black ">23 rd March 12-2pm</div>
 A cyber security event where uhouhouho   </div>
-    <hr />
+    <hr className='bg-yellow-400'/>
   </li>
   <li className='mb-6'>
-    <hr />
+    <hr className='bg-yellow-400'/>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
     </div>
@@ -55,10 +58,10 @@ A cyber security event where uhouhouho   </div>
       <time className="font-mono italic">Social Eclipse</time>
       <div className="text-lg font-black">23rd March 9-11 AM</div>
 Networking event : Get a chance to make amaz </div>
-    <hr />
+    <hr className='bg-yellow-400'/>
   </li>
   <li className='mb-6'>
-    <hr />
+    <hr className='bg-yellow-400'/>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
     </div>
@@ -69,6 +72,7 @@ Networking event : Get a chance to make amaz </div>
     </div>
   </li>
 </ul>
+        </div>
     </div>
   )
 }
