@@ -12,15 +12,15 @@ export default function TeamCard({imgSrc,name,position}) {
         <CardMedia
           component="img"
           height="150"
-          image="https://images.unsplash.com/photo-1589118949245-7d38baf380d6"
+          image={'https://yt3.googleusercontent.com/XADM740du4Inz2nZRJ0E8CIuRi56umG_2etoAR0fnYz2pfBlylRYbj2UuFbG3rcy9oC0dUQy=s900-c-k-c0x00ffffff-no-rj'}
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
-             {name}
+            Sidharth Mall
           </Typography>
-          <Typography variant="body2" color="text.secondary" className='bg-purple-200'>
-            {position}
+          <Typography variant="body2" color="text.secondary" className=''>
+            Chairperson
           </Typography>
         </CardContent>
       </CardActionArea>

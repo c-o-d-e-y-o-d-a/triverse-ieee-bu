@@ -3,6 +3,8 @@ import TeamCard from '../Components/TeamCard'
 import Footer from '../Components/Footer'
 
 
+
+
 const Teams = () => {
   return (
     <><div className=' text-white bg-black text-center h-full '>
@@ -46,7 +48,7 @@ const Teams = () => {
  <div class="flex-grow h-px bg-gray-400"></div>
 </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8">
-      <TeamCard imgSrc="" name="nischal" position="webmaster"  className='rounded-lg'/>
+      <TeamCard imgSrc="techTeam/ayush.png" name="ayush" position="team member"  className='rounded-lg'/>
       <TeamCard/>
       <TeamCard/>
       <TeamCard/>

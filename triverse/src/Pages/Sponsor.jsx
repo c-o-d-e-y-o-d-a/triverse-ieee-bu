@@ -15,7 +15,7 @@ const Sponsor = () => {
       </div>
      
 
-    <div className=' mt-4 md:my-14 bg-grey-900 flex justify-center items-center ms-4  md:ms-4' id='sponsorship-tiers'>
+    <div className=' mt-4 md:my-14 bg-grey-900 flex justify-center items-center   md:ms-4' id='sponsorship-tiers'>
      
        <div className='flex my-10 gap-6 flex-wrap justify-center items-center '>
       <SponsorCard type ="Title" details = "Exclusing naming rights for the event" cost="Rs 45k"/>

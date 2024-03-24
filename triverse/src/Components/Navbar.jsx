@@ -25,8 +25,8 @@ const Navbar = () => {
       </div>
 
       <div className='duration-500 text-center text-sm p-4 md:px-12 bg-black background-blur-xl text-purple-800 font-bold block md:hidden'>
-        <button onClick={() => setMobile(!Mobile)}>
-          {Mobile ? <ImCross /> : <FaBars />}
+        <button  onClick={() => setMobile(!Mobile)}>
+          {Mobile ? <ImCross className='text-2xl text-yellow-500 mb-6' /> : <FaBars  className='text-2xl text-yellow-500'/>}
         </button>
         <ul className={Mobile? class1:class2} >
           <button  onClick={() => setMobile(!Mobile)} key="home" className='hover:text-yellow-500 transition duration-300 cursor-pointer mt-2'><Link to='/'>Home</Link></button>
