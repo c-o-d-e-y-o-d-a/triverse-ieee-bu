@@ -3,7 +3,7 @@ import CountDown from '../Components/CountDown';
 import { motion } from "framer-motion"
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
-import About from './about';
+import About from './About';
 import Timeline from './Timeline';
 import Events from './Events';
 import Gallery from './Gallery'
