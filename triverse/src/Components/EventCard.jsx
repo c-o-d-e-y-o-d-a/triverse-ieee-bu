@@ -8,7 +8,7 @@ const EventCard = ({imageSrc ,title,desc,regLink}) => {
       <div className='card-body text-white overflow-y-scroll'>
         
         <p className="card-sub-title  text-2xl">{title}</p>
-        <p className="card-info hide-scrollbar overflow-scroll ">{desc}</p>
+        <p className="card-info  ">{desc}</p>
         <button className='card-btn'><a href={regLink}>Register</a></button>
 
       </div>
