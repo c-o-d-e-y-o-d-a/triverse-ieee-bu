@@ -3,16 +3,21 @@ import CountDown from '../Components/CountDown';
 import { motion } from "framer-motion"
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
-
+import About from './about';
+import Timeline from './Timeline';
+import Events from './Events';
+import Gallery from './Gallery'
+import MedComp from '../Components/MedComp';
+import PrizeMoney from '../Components/PrizeMoney';
 
 // import Bottom from '../Components/Bottom';
 const Home = () => {
   return (
     
     
-    <motion.div>
+    <motion.div className=''>
       <motion.div 
-    className=' w-screen h-screen text-yellow-300 text-center pt-8 pb-24 font-extrabold flex flex-col justify-center items-center '>
+    className=' mb-10 w-screen h-screen text-yellow-300 text-center pt-8 pb-24 font-extrabold flex flex-col justify-center items-center '>
       <h1 
      
       // animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
@@ -35,6 +40,17 @@ const Home = () => {
 
 
         <motion.p
+        animate={{scale:[2,1.3],opacity:[0.3,1]}}
+        transition={{duration:0.4}}
+        className=' text-lg  font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500'
+        >
+          presents
+        </motion.p>
+
+
+
+
+        <motion.p
         animate={{scale:[2,1],opacity:[0.3,1]}}
         transition={{duration:0.5}}
         >
@@ -47,12 +63,12 @@ const Home = () => {
       <motion.h3 
       animate={{x:[-300,0],scale:[2,1],opacity:[0.3,1]}}
       transition={{duration:0.6}}
-      className='mb-2 text-xl bg-slate-950 text-purple-500'>Universe of Tech</motion.h3>
+      className='mb-2 text-xl bg-slate-950 text-purple-500'>The Tech-tastic Fiesta You Can't Miss!</motion.h3>
 
 
       <motion.h6 animate={{x:[300,0],scale:[2,1],opacity:[0.3,1]}} 
       transition={{duration:0.7}}
-      className='mb-2 font-medium bg-slate-950 text-blue-200' >Join us for an amazing 3 day event at Bennett University ,Greater Noida</motion.h6>
+      className='mb-2 font-medium bg-slate-950 text-blue-200' >Join us for an amazing 4 day event at Bennett University ,Greater Noida</motion.h6>
 
 
       <motion.div animate={{x:[-300,0],scale:[2,1],opacity:[0.3,1]}}
@@ -72,6 +88,14 @@ const Home = () => {
 
 
     </motion.div>
+    <PrizeMoney/>
+
+    <About/>
+    <Timeline/>
+    
+    <Events/>
+    <MedComp />
+    <Gallery/>
     <Footer/>
 
 

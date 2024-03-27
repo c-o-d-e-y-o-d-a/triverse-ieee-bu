@@ -39,7 +39,6 @@
 // }
 
 
-import Footer from '../Components/Footer'
 import GalleryCard from '../Components/GalleryCard'
 
 import React from 'react'
@@ -48,7 +47,7 @@ const gallery = () => {
   return (
     <>
     <div className='text-center grid grid-cols-1 justify-items-center align-items-center'>
-      <h1 className='mb-16 text-5xl text-white mt-10'>Our Previous <br/> Events</h1>
+      <h1 className='mb-16 md:text-6xl text-5xl text-white mt-10'>Our Previous <br/> Events</h1>
       <div className=" image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center align-items-center gallery">
          {itemData.map((item) => (
           <GalleryCard imageSrc={item.img}/>
@@ -60,7 +59,6 @@ const gallery = () => {
          };
          </div>
     </div>
-    <Footer/>
     </>
   )
 }
@@ -70,7 +68,7 @@ export default gallery
 
 const itemData = [
   {
-    img: '/teamphoto.jpg',
+    img: '/shradh.jpg',
     
   },
   {
@@ -107,7 +105,7 @@ const itemData = [
     
   },
   {
-    img: '/shradh.jpg',
+    img: '/teamphoto.jpg',
     
   },
   {

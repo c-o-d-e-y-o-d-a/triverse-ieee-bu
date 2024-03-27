@@ -10,7 +10,7 @@ const Sponsor = () => {
     
   <div className='h-full w-screen bg-black text-center '>
 
-      <div className="md:text-5xl text-4xl mt-6 text-white">
+      {/* <div className="md:text-5xl text-4xl mt-6 text-white">
         Call for Sponsors
       </div>
      
@@ -23,7 +23,7 @@ const Sponsor = () => {
       <SponsorCard type ="Silver" details = "Logo placement on event materials and signage" cost="Rs 20k"/>
      </div>
 
-    </div>
+    </div> */}
 
 
     <div className="text-white text-3xl my-30 mt-8 mb-28">

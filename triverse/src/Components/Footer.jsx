@@ -22,22 +22,22 @@ const Footer = () => {
         <ul className="flex flex-wrap justify-center md:justify-start mb-6 gap-4 text-xl ">
           {/* Footer options */}
           <li className="mr-6 mb-2 md:mb-0">
-            <a href="#" className="hover:text-gray-300"><Link to='/contact'>Contact</Link></a>
-          </li>
-          <li className="mr-6 mb-2 md:mb-0">
             <a href="#" className="hover:text-gray-300"><Link to='/'>Home</Link></a>
           </li>
           <li className="mr-6 mb-2 md:mb-0">
-            <a href="#" className="hover:text-gray-300"><Link to='/events'>Events</Link></a>
+            <a href="#" className="hover:text-gray-300"><Link to='/team'>Team</Link></a>
           </li>
           <li className="mr-6 mb-2 md:mb-0">
-            <a href="#" className="hover:text-gray-300"><Link to='/timeline'>TimeLine</Link></a>
+            <a href="#" className="hover:text-gray-300"><Link to='/sponsor'>Sponsors</Link></a>
+          </li>
+          <li className="mr-6 mb-2 md:mb-0">
+            <a href="#" className="hover:text-gray-300"><Link to='/contact'>Contact</Link></a>
           </li>
         </ul>
       </div>
       {/* Copyright text */}
       <div className="text-center">
-        Triverse Copyright © 2024 IEEE - All rights reserved || Createe By: <a href="https://portfolio-site-eight-beta.vercel.app/" target='_blank' className="text-blue-500">Nischal Gautam</a>
+        Triverse Copyright © 2024 IEEE - All rights reserved || Creatde By: <a href="https://portfolio-site-eight-beta.vercel.app/" target='_blank' className="text-blue-500">Nischal Gautam</a>
       </div>
     </footer>
   );

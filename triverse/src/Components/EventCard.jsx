@@ -1,15 +1,15 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
-const EventCard = ({imageSrc ,title,desc}) => {
+const EventCard = ({imageSrc ,title,desc,regLink}) => {
   return (
-     <div className="card">
+     <div className="card overflow-y-scroll">
       <img src={imageSrc} className='card-img' alt=""  />
-      <div className='card-body text-white'>
+      <div className='card-body text-white overflow-y-scroll'>
         
-        <p className="card-sub-title uppercase text-4xl">{title}</p>
-        <p className="card-info">{desc}</p>
-        <button className='card-btn'>Register</button>
+        <p className="card-sub-title  text-2xl">{title}</p>
+        <p className="card-info hide-scrollbar overflow-scroll ">{desc}</p>
+        <button className='card-btn'><a href={regLink}>Register</a></button>
 
       </div>
      </div>

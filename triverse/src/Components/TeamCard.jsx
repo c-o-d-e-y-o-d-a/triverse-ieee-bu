@@ -7,20 +7,23 @@ import { CardActionArea } from '@mui/material';
 
 export default function TeamCard({imgSrc,name,position}) {
   return (
-    <Card sx={{ maxWidth: 250 }} className='mb-8'>
+    <Card sx={{ maxWidth: 250, minWidth:250 , maxHeight:300}} className='mb-8'>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="150"
-          image={'https://yt3.googleusercontent.com/XADM740du4Inz2nZRJ0E8CIuRi56umG_2etoAR0fnYz2pfBlylRYbj2UuFbG3rcy9oC0dUQy=s900-c-k-c0x00ffffff-no-rj'}
-          alt="green iguana"
-        />
+        <div style={{ maxHeight: 200, overflow: 'hidden' }}>
+          <CardMedia
+            component="img"
+            height="100%"
+            style={{ objectFit: 'fit' }}
+            image={imgSrc}
+            alt="Team member"
+          />
+        </div>
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
-            Sidharth Mall
+            {name}
           </Typography>
           <Typography variant="body2" color="text.secondary" className=''>
-            Chairperson
+            {position}
           </Typography>
         </CardContent>
       </CardActionArea>
