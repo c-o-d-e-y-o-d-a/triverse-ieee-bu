@@ -76,7 +76,7 @@ const itemData = [
     
   },
   {
-    img: '',
+    img: '/evnet8.JPG',
     
   },
   {

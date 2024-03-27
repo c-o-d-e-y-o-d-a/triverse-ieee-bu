@@ -15,7 +15,7 @@ const Navbar = () => {
           <li key="home" className='hover:text-yellow-500 transition duration-300 cursor-pointer'> <Link to='/'>Home</Link></li>
          
           <li key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/team'>Team</Link></li>
-          <li key="sponsor" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></li>
+          {/* <li key="sponsor" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></li> */}
           
           <li key="contact" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/contact'>Contact</Link></li> 
         </ul>
@@ -27,12 +27,12 @@ const Navbar = () => {
         </button>
         <ul className={Mobile? class1:class2} >
           <button  onClick={() => setMobile(!Mobile)} key="home" className='hover:text-yellow-500 transition duration-300 cursor-pointer mt-2'><Link to='/'>Home</Link></button>
-          <button  onClick={() => setMobile(!Mobile)} key="about" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/about'>About</Link></button>
-          <button  onClick={() => setMobile(!Mobile)} key="timeline" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/timeline'>TimeLine</Link></button>
-          <button  onClick={() => setMobile(!Mobile)} key="events" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/events'>Events</Link></button>
-          <button  onClick={() => setMobile(!Mobile)} key="gallery" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/gallery'>Gallery</Link></button>
+          {/* <button  onClick={() => setMobile(!Mobile)} key="about" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/about'>About</Link></button> */}
+          {/* <button  onClick={() => setMobile(!Mobile)} key="timeline" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/timeline'>TimeLine</Link></button> */}
+          {/* <button  onClick={() => setMobile(!Mobile)} key="events" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/events'>Events</Link></button> */}
+          {/* <button  onClick={() => setMobile(!Mobile)} key="gallery" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/gallery'>Gallery</Link></button> */}
           <button  onClick={() => setMobile(!Mobile)} key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/team'>Team</Link></button>
-          <button  onClick={() => setMobile(!Mobile)} key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></button>
+          {/* <button  onClick={() => setMobile(!Mobile)} key="team" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/sponsor'>Sponsors</Link></button> */}
           <button  onClick={() => setMobile(!Mobile)} key="contact" className='hover:text-yellow-500 transition duration-300 cursor-pointer'><Link to='/contact'>Contact</Link></button> 
         </ul>
       </div>

@@ -27,7 +27,7 @@ const PrizeMoney = () => {
              // Easing function
           }}
         >
-          Get a chance <br /> to win cash <br /> <span className="fancy">prizes worth 30k</span>
+          Get a chance <br /> to win cash <br /> <span className="fancy">prizes worth 40k</span>
         </motion.p>
       </div>
     </div>

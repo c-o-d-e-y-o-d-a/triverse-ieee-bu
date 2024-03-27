@@ -94,7 +94,7 @@ const Home = () => {
     <Timeline/>
     
     <Events/>
-    <MedComp />
+    {/* <MedComp /> */}
     <Gallery/>
     <Footer/>
 
