@@ -6,9 +6,9 @@ const Timeline = () => {
 
 
     <>
-    <div className='text-center  w-full h-screen lg:h-full grid grid-rows-1  align-middle justify-center mb-40'>
+    <div className='text-center  w-full h-screen lg:h-full grid grid-rows-1  align-middle justify-center mb-52'>
 
-        <div className='timelineBox md:my-8 md:mb-4 md:bg-slate-900  md:pt-4 pt-8 pb-8  w-90'>
+        <div className='timelineBox md:my-8 md:mb-4 md:bg-slate-900  md:pt-4 pt-8 pb-8  w-90 max-w-full overflow-x-auto'>
           <h1 className='text-5xl mb-12 text-white mt-4'>TimeLine</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-yellow-400">
 

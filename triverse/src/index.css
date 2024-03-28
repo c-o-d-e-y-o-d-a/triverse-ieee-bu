@@ -124,6 +124,7 @@ box-shadow: rgba(192, 194, 193, 0.25) 0px 6px 12px -2px, rgba(189, 189, 189, 0.3
     border: 1px solid yellow;
     padding-left: 8dvw;
     background-color: black;
+    
   }
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
@@ -219,6 +220,7 @@ box-shadow: rgba(192, 194, 193, 0.25) 0px 6px 12px -2px, rgba(189, 189, 189, 0.3
     width: 70dvw;
     border: 1px solid yellow;
     padding-left: 0dvw;
+    
   }
 }
 

@@ -44,7 +44,7 @@ const evenList = [
 const Events = () => {
   return (
     <>
-    <div className='text-center  font-head pt-4    ' id='event'>
+    <div className='text-center  font-head pt-4  mb-40' id='event'>
       <h1 className='md:text-6xl text-5xl mt-2 mb-28 md:mb-12 text-white p-6'>Our Events</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 justify-items-center align-items-center">
         {evenList.map((event, index) => (
