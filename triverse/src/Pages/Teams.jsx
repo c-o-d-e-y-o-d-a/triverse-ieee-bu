@@ -119,7 +119,7 @@ const Teams = () => {
  <div class="flex-grow h-px bg-gray-400"></div>
 </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
-         <TeamCard imgSrc="\pr\rudra.jpg" name="Ananya" position="PR head"  className='rounded-lg'/>
+         <TeamCard imgSrc="\pr\rudra.jpg" name="Rudra" position="PR head"  className='rounded-lg'/>
      <TeamCard imgSrc="\pr\ananya.png" name="Ananya" position="PR Co-head"  className='rounded-lg'/>
 
       <TeamCard imgSrc="\pr\AditiSingh_PR.png" name="Aditi Singh" position="Team Memeber"  className='rounded-lg'/>
