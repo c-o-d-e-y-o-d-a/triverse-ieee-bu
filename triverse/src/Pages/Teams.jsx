@@ -19,9 +19,9 @@ const Teams = () => {
 
 
       <TeamCard imgSrc="\office\me2.jpg" name="Nischal Gautam" position="Webmaster"  className='rounded-lg'/>
-       <TeamCard imgSrc="\office\s.png" name="Sanika" position="Secratory"/>
+       <TeamCard imgSrc="\office\s.png" name="Sanika" position="Secretary"/>
       <TeamCard imgSrc="\office\Chairperson.jpg" name="Sidharth Mall" position="Chairperson"/>
-      <TeamCard imgSrc="\office\j.jpg" name="Yash Goyal" position="vice chairperson"/>  
+      <TeamCard imgSrc="\office\j.jpg" name="Yash Goyal" position="Vice Chairperson"/>  
         <TeamCard imgSrc="\office\utkarsh.jpg" name="Utkarsh Tripath" position="Treasurer"/>  
 
 
@@ -40,7 +40,7 @@ const Teams = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
       <TeamCard imgSrc="techTeam\rachit.jpg" name="Rachit gurjar" position="Technical Head"  className='rounded-lg'/>
 
-      <TeamCard imgSrc="techTeam\utkarsh.png" name="Utkarsh" position="Technical Co head"  className='rounded-lg'/>
+      <TeamCard imgSrc="techTeam\utkarsh.png" name="Utkarsh" position="Technical co-Head"  className='rounded-lg'/>
 
       <TeamCard imgSrc="techTeam\ayush.png" name="Ayush" position="Team Member"  className='rounded-lg'/>
       <TeamCard imgSrc="techTeam\devansh.jpeg" name="Devansh" position="Team Member"/>
@@ -58,8 +58,8 @@ const Teams = () => {
  <div class="flex-grow h-px bg-gray-400"></div>
 </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
-        <TeamCard imgSrc="\socialmedia\deeksha.jpg" name="Jatin" position="Social Media Team"  className='rounded-lg'/>
-      <TeamCard imgSrc="socialmedia/jatin.png" name="Jatin" position="Co head"  className='rounded-lg'/>
+        <TeamCard imgSrc="\socialmedia\deeksha.jpg" name="Deeksha" position="Social Media Head"  className='rounded-lg'/>
+      <TeamCard imgSrc="socialmedia/jatin.png" name="Jatin" position="Social Media co-Head"  className='rounded-lg'/>
       <TeamCard imgSrc="socialmedia/aarchi.jpg" name="Aarchi" position="Team Member"/>
       <TeamCard imgSrc="socialmedia/aditi.png" name="Aditi" position="Team Member"/>
       <TeamCard imgSrc="socialmedia/ananya.png" name="Ananya" position="Team Member"/>
@@ -79,8 +79,8 @@ const Teams = () => {
  <div class="flex-grow h-px bg-gray-400"></div>
 </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
-      <TeamCard imgSrc="management/m4.png" name="kartikey" position="management head"  className='rounded-lg'/>
-      <TeamCard imgSrc="management/m1.png" name="Adeetya Dubey" position="management co-head"/>
+      <TeamCard imgSrc="management/m4.png" name="kartikey" position="Management head"  className='rounded-lg'/>
+      <TeamCard imgSrc="management/m1.png" name="Adeetya Dubey" position="Management co-Head"/>
       <TeamCard imgSrc="management/m3.png" name="nischal" position="Team Member"/>
       <TeamCard imgSrc="management/m2.png" name="Aditya Raj" position="Team Member"/>
       <TeamCard imgSrc="management/m5.jpg" name="nischal" position="Team Member"/>
@@ -141,7 +141,7 @@ const Teams = () => {
       <TeamCard imgSrc="content\content\Muskan.png" name="Muskan" position="Team Member"/>
       <TeamCard imgSrc="content\content\Pragya.jpg" name="Pragya" position="Team Member"/>
       <TeamCard imgSrc="content\content\Prayansh.png" name="Prayansh" position="Team Member"/>
-      >
+      
 
       </div>
 
