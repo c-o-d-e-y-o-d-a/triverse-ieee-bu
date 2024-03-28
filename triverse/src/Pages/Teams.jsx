@@ -81,7 +81,7 @@ const Teams = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
       <TeamCard imgSrc="management/m4.png" name="kartikey" position="Management head"  className='rounded-lg'/>
       <TeamCard imgSrc="management/m1.png" name="Adeetya Dubey" position="Management co-Head"/>
-      <TeamCard imgSrc="management/m3.png" name="nischal" position="Team Member"/>
+      <TeamCard imgSrc="management/m3.png" name="Arnav Saxena" position="Team Member"/>
       <TeamCard imgSrc="management/m2.png" name="Aditya Raj" position="Team Member"/>
       <TeamCard imgSrc="management/m5.jpg" name="nischal" position="Team Member"/>
       <TeamCard imgSrc="management/m6.png" name="Parth Shukla" position="Team Member"/>
