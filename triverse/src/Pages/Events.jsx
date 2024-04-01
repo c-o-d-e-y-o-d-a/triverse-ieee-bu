@@ -31,7 +31,7 @@ const evenList = [
 
  { ImageSrc: "/posters/p4.png",
   title:"Code Roast",
-  description:"Coderoast is a high-octane coding competition.With 8 elite teams competing, participants solve puzzles, debug code, and optimize algorithms to claim top honors. Prizes include Amazon vouchers for the top 2 teams and a special reward for the ultimate champion. ",
+  description:"Coderoast is a high-octane coding competition.With 8 elite teams competing, participants solve puzzles, debug code, and optimize algorithms to claim top honors. Prizes  for the top 3 teams .",
   regLink:"https://forms.gle/pgyce4u9wcXJVq8b6"
 
 },

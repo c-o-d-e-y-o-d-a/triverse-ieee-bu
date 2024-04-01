@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Components/Footer';
+
 const Contact = () => {
   return (
     <>
@@ -44,28 +45,28 @@ const Contact = () => {
               </div>
             </div>
 
-            <form className="p-6 flex flex-col justify-center">
+            <form className="p-6 flex flex-col justify-center text-white">
               <div className="flex flex-col">
                 <label htmlFor="name" className="hidden">Full Name</label>
-                <input type="name" name="name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
+                <input type="name" name="name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
               </div>
 
               <div className="flex flex-col mt-2">
                 <label htmlFor="email" className="hidden">Email</label>
-                <input type="email" name="email" id="email" placeholder="Email" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
+                <input type="email" name="email" id="email" placeholder="Email" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
               </div>
 
               <div className="flex flex-col mt-2">
                 <label htmlFor="Message" className="hidden">Message</label>
-                <input type="Message" name="Message" id="Message" placeholder="Message" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
+                <input type="Message" name="Message" id="Message" placeholder="Message" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
               </div>
 
               <div className="flex flex-col mt-2">
                 <label htmlFor="number" className="hidden">Phone No.</label>
-                <input type="number" name="number" id="number" placeholder="Phone number" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
+                <input type="number" name="number" id="number" placeholder="Phone number" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none"/>
               </div>
 
-              <button type="submit" className="w-20 mt-8 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700  text-white font-semibold focus:border-indigo-500 focus:outline-none hover:text-purple-500">Send</button>
+              <button type="submit" className="w-20 mt-8 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700  text-white font-semibold focus:border-indigo-500 focus:outline-none hover:text-purple-500" >Send</button>
             </form>
           </div>
         </div>
@@ -76,7 +77,8 @@ const Contact = () => {
       </div>
       
     </div>
-    <Footer/></>
+    <Footer/>
+    </>
   );
 }
 

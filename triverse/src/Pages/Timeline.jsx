@@ -34,7 +34,7 @@ const Timeline = () => {
     </div>
     <div className=" timeline-end mb-10 rounded-xl ">
       <time className="font-mono italic">Beyond the Feed</time>
-      <div className="text-lg font-black">4rth April || 5:45 to 6:45 P.M</div>
+      <div className="text-lg font-black">4th April || 5:45 to 6:45 P.M</div>
  Venue: 002 ALH    </div>
     <hr className='bg-yellow-400' />
   </li>
