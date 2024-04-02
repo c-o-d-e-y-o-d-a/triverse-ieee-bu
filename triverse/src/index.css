@@ -53,14 +53,15 @@ src: url('C:\Users\hp\triverse-ieee\triverse-ieee-bu\triverse\biorhyme\biorhyme\
   width: 270px;
   height: 350px;
   border-radius: 20px;
-  overflow: hidden;
+  
   border: 6px solid #71978c;
   position: relative;
-  overflow: hidden;
+ 
   transition-duration: 109ms;
   margin-bottom: 5dvh;
 
 box-shadow: rgba(192, 194, 193, 0.25) 0px 6px 12px -2px, rgba(189, 189, 189, 0.3) 0px 3px 7px -3px;
+overflow-y: hidden;
 
   
 }
@@ -89,6 +90,18 @@ box-shadow: rgba(192, 194, 193, 0.25) 0px 6px 12px -2px, rgba(189, 189, 189, 0.3
   padding:30px;
   transition-duration: 19ms;
   opacity: 1;
+  overflow-x: scroll;
+
+  
+  
+}
+
+.card-body::-webkit-scrollbar{
+  display: none;
+}
+
+.card::-webkit-scrollbar{
+  display: none;
 }
 
 .card-title{
@@ -283,3 +296,5 @@ text-align:left;
 margin:0% 3%;
 }
 }
+
+
