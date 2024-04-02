@@ -139,8 +139,8 @@ const Teams = () => {
  <div class="flex-grow h-px bg-gray-400"></div>
 </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
-         <TeamCard imgSrc="\pr\rudra.jpg" name="Rudra" position="PR head"  className='rounded-lg'/>
-     <TeamCard imgSrc="\pr\ananya.png" name="Ananya" position="PR Co-head"  className='rounded-lg'/>
+         <TeamCard imgSrc="\pr\rudra.jpg" name="Rudra" position="PR Head"  className='rounded-lg'/>
+     <TeamCard imgSrc="\pr\ananya.png" name="Ananya" position="PR Co-Head"  className='rounded-lg'/>
 
       <TeamCard imgSrc="\pr\AditiSingh_PR.png" name="Aditi Singh" position="Team Memeber"  className='rounded-lg'/>
      
@@ -177,8 +177,8 @@ const Teams = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center align-items-center px-8 gap-y-8">
 
         
-         <TeamCard imgSrc="\design\tushar.jpg" name="Tushar swarnkar" position="Design head"/>
-        <TeamCard imgSrc="\design\design team\Rachit Katyal.png" name="Rachit katyal" position="Co head"/>
+         <TeamCard imgSrc="\design\tushar.jpg" name="Tushar Swarnkar" position="Design head"/>
+        <TeamCard imgSrc="\design\design team\Rachit Katyal.png" name="Rachit Katyal" position="Co head"/>
       <TeamCard imgSrc="\design\design team\Abhinav.png" name="Abhinav" position="Team Member"  className='rounded-lg'/>
       <TeamCard imgSrc="\design\design team\IMG-20240101-WA0033(1).jpg" name="Akshay" position="Team Member"/>
       <TeamCard imgSrc="\design\design team\unnati.jpg" name="Unnati Sachdeva" position="Team Member"/>
