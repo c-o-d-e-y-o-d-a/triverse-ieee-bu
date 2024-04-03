@@ -66,6 +66,8 @@ const Teams = () => {
       <TeamCard imgSrc="techTeam\devansh.jpeg" name="Devansh" position="Team Member"/>
       <TeamCard imgSrc="techTeam\hardik.png" name="Hardik" position="Team Member"/>
       <TeamCard imgSrc="techTeam\manan.jpg" name="Manan" position="Team Member"/>
+      <TeamCard imgSrc="techTeam\Rahul.jpg" name="Rahul Joshi" position="Team Member"  className='rounded-lg'/>
+
       <TeamCard imgSrc="techTeam\sanya.png" name="Sanya" position="Team Member"/>
 
       </div>
