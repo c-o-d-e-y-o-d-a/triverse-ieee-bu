@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       {/* Copyright text */}
       <div className="text-center">
-        Triverse Copyright © 2024 IEEE - All rights reserved || Created By: <a href="https://portfolio-site-eight-beta.vercel.app/" target='_blank' className="text-blue-500">Nischal Gautam</a>
+        Triverse Copyright © 2024 IEEE - All rights reserved || Created By: <a href="https://portfolio-site-eight-beta.vercel.app/" target='_blank' className="text-blue-500">Nischal Gautam and Rachit Gurjar</a>
       </div>
     </footer>
   );
